@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Генератор єврододатків</title>
+
+	<!--<link href="css/bootstrap.min.css" rel="stylesheet">-->    
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+	<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/notUpload.js"></script>
+
+</head>
+<body>
+<form id="login" action="user/autorization.php" method="POST">
+    <h1>Форма входу</h1>
+    <fieldset id="inputs">
+        <input id="username" name="username" type="text" placeholder="Your login" minlength="4" maxlength="20" autofocus required>
+        <input id="password" name="password" type="password" placeholder="Pass" minlength="4" maxlength="20"required>
+    </fieldset>
+    <fieldset id="actions">
+        <input type="submit" name="submit" id="submit" value="Вхід">
+        <a href="#" onclick="CallMy()">Забули пароль?</a><a href="regist/regist.html">Реєстрація</a>
+    </fieldset>
+</form>
+<script>
+    function CallMy() {
+        alert("Зателефонуйте за номером +38(0564)470-13-61 до відділу ІОЦ");
+    }
+</script>
+</body>
+</html>

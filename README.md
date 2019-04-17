@@ -1,2 +1,2 @@
-# Euro
-https://jobs.dou.ua/companies/lindenvalley-gmbh/
+# PhpEuro
+Web application for generating documents in the enterprise
